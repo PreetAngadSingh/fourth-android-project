@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backCol"
+    tools:context=".Radio">
+
+    <GridView
+        android:id="@+id/grid"
+        android:background="@color/textCol"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchMode="columnWidth"
+        android:numColumns="auto_fit"
+        android:layout_margin="16dp"
+        android:verticalSpacing="10dp"
+        android:layout_above="@id/nowpbutton"
+        />
+    <Button
+        android:id="@+id/nowpbutton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/backCol"
+        android:textColor="@color/textCol"
+        android:text="@string/text1"/>
+</RelativeLayout>

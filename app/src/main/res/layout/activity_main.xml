@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFECB3">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nowplaying"
+        style="@style/firstText"
+        android:text="@string/text1"
+        android:textColor="@color/textCol"
+        android:background="@color/backCol"
+        />
+    <TextView
+        android:id="@+id/playlist"
+        style="@style/restText"
+        android:text="@string/text2"
+        android:textColor="@color/textCol"
+        android:background="@color/backCol"
+        />
+    <TextView
+        android:id="@+id/radio"
+        style="@style/restText"
+        android:text="@string/text3"
+        android:textColor="@color/textCol"
+        android:background="@color/backCol"
+        />
+    <TextView
+        android:id="@+id/podcast"
+        style="@style/restText"
+        android:text="@string/text4"
+        android:textColor="@color/textCol"
+        android:background="@color/backCol"
+        />
+
+</LinearLayout>
+</ScrollView>
